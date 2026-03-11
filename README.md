@@ -34,6 +34,10 @@ brew install itamaker/tap/skillforge
 - `promptdeck`
 - `datasetlint`
 
+## Current Release Baseline
+
+The formulae currently track the live `v0.1.1` releases of the five Go CLI tools.
+
 ## Source Repositories
 
 - `skillforge`: `https://github.com/itamaker/skillforge`
@@ -44,9 +48,4 @@ brew install itamaker/tap/skillforge
 
 ## Access Note
 
-The five AI CLI formulae currently download release assets from private GitHub repositories.
-
-That means:
-
-- installation works for accounts that can access those repositories
-- public installation will fail until the source repositories are made public or the release assets are published somewhere publicly accessible
+The five AI CLI formulae download release assets from public GitHub repositories and are available for normal public installation.
