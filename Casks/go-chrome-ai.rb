@@ -1,11 +1,11 @@
 cask "go-chrome-ai" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.0.3"
-  sha256 arm: "dee45018a65de63b6f2ab2a3eb233dacce2d874ddf676b39334232dcbba18612",
-         intel: "04f84b007c0d48ca0e042070059e6cbcbfb424a83ca52a2457c923237187850c"
+  version "1.0.4"
+  sha256 arm: "86863eb9daae0748e894cefb0734ba9e45fd386895cbab947dd8f5b53623b0a6",
+         intel: "788fdc4e99d000423b96b56dcd7603839f74e9023fb83d23600b3714f14269d8"
 
-  url "https://github.com/itamaker/go-chrome-ai/releases/download/v#{version}/go-chrome-ai-darwin-#{arch}.tar.gz"
+  url "https://github.com/itamaker/go-chrome-ai/releases/download/v#{version}/go-chrome-ai_#{version}_darwin_#{arch}.tar.gz"
   name "go-chrome-ai"
   desc "Patch Chrome Local State to enable Ask Gemini and other AI features"
   homepage "https://github.com/itamaker/go-chrome-ai"
