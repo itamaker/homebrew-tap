@@ -1,9 +1,9 @@
 cask "go-chrome-ai" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.0.4"
-  sha256 arm: "86863eb9daae0748e894cefb0734ba9e45fd386895cbab947dd8f5b53623b0a6",
-         intel: "788fdc4e99d000423b96b56dcd7603839f74e9023fb83d23600b3714f14269d8"
+  version "1.0.5"
+  sha256 arm: "34b0be6c335f7e9aa80c20927e0c28424a91d22b141c67b3c1aaf3ec96496bf8",
+         intel: "ddf86f9db00bacd034b53d3cdfa5530adcef45db5ec91c7f6a61d6343440b0e5"
 
   url "https://github.com/itamaker/go-chrome-ai/releases/download/v#{version}/go-chrome-ai_#{version}_darwin_#{arch}.tar.gz"
   name "go-chrome-ai"
