@@ -1,26 +1,26 @@
 class Promptdeck < Formula
   desc "Render prompt templates from JSON variables and experiment matrices"
   homepage "https://github.com/itamaker/promptdeck"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/itamaker/promptdeck/releases/download/v0.1.1/promptdeck_0.1.1_darwin_arm64.tar.gz"
-      sha256 "28c4ed3261f590014042b046313cb1f415fef8575f8592cea2b6904469c0a2cc"
+      url "https://github.com/itamaker/promptdeck/releases/download/v0.2.0/promptdeck_0.2.0_darwin_arm64.tar.gz"
+      sha256 "e2f5156e5d7f88e29fc1233de34ed23efb83fbe187e825e66e708fc0f83345f4"
     else
-      url "https://github.com/itamaker/promptdeck/releases/download/v0.1.1/promptdeck_0.1.1_darwin_amd64.tar.gz"
-      sha256 "9200fda065f5054d89f1bdbeeb1f35f72f586ac1d5166d6fec42fe47c401a62d"
+      url "https://github.com/itamaker/promptdeck/releases/download/v0.2.0/promptdeck_0.2.0_darwin_amd64.tar.gz"
+      sha256 "de8aec4a343a70419222557d4f207a1dcb84712126c44936721fcbfa23f4ccea"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/itamaker/promptdeck/releases/download/v0.1.1/promptdeck_0.1.1_linux_arm64.tar.gz"
-      sha256 "bb8a4281cc6e401f6476f374f82f463f773fb2c93b3d331333fee127f4ff6e88"
+      url "https://github.com/itamaker/promptdeck/releases/download/v0.2.0/promptdeck_0.2.0_linux_arm64.tar.gz"
+      sha256 "2ac3df55267269c55ae09f2098e2e2e60a2685e993dce08e40d10cff2093a571"
     else
-      url "https://github.com/itamaker/promptdeck/releases/download/v0.1.1/promptdeck_0.1.1_linux_amd64.tar.gz"
-      sha256 "8b97f8f9ccb2811dcd1b185c800d24a674c1b6afe46d0638f664c23d7f5ae966"
+      url "https://github.com/itamaker/promptdeck/releases/download/v0.2.0/promptdeck_0.2.0_linux_amd64.tar.gz"
+      sha256 "f11ae530a545ce9de10b9378e913a8e402b5edd9c9b1f521faa10bf56e84381c"
     end
   end
 
