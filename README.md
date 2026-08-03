@@ -36,15 +36,17 @@ brew install itamaker/tap/skillforge
 
 ## Current Release Baseline
 
-The formulae currently track the live `v0.1.1` releases of the five Go CLI tools.
+The formulae currently track the live `v0.2.0` releases of the five Go CLI tools.
 
 ## Source Repositories
 
-- `skillforge`: `https://github.com/itamaker/skillforge`
-- `runlens`: `https://github.com/itamaker/runlens`
-- `ragcheck`: `https://github.com/itamaker/ragcheck`
-- `promptdeck`: `https://github.com/itamaker/promptdeck`
-- `datasetlint`: `https://github.com/itamaker/datasetlint`
+Each CLI's source repo was renamed to add a `-skill` suffix after it gained a bundled Claude Code skill; the binary/formula names below are unchanged.
+
+- `skillforge`: `https://github.com/itamaker/forge-skill`
+- `runlens`: `https://github.com/itamaker/runlens-skill`
+- `ragcheck`: `https://github.com/itamaker/ragcheck-skill`
+- `promptdeck`: `https://github.com/itamaker/promptdeck-skill`
+- `datasetlint`: `https://github.com/itamaker/datasetlint-skill`
 
 ## Access Note
 
