@@ -36,7 +36,7 @@ brew install itamaker/tap/skillforge
 
 ## Current Release Baseline
 
-The formulae currently track the live `v0.2.0` releases of the five Go CLI tools.
+The formulae currently track the live `v0.3.0` releases of the five Go CLI tools (bumped from v0.2.0 to publish each tool's new bundled Claude Code skill; no CLI source changes).
 
 ## Source Repositories
 
