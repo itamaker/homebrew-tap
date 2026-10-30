@@ -1,26 +1,26 @@
 class Runlens < Formula
   desc "Inspect agent and tool JSONL traces for latency, failure rate, and token usage"
   homepage "https://github.com/itamaker/runlens-skill"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/itamaker/runlens-skill/releases/download/v0.3.0/runlens_0.3.0_darwin_arm64.tar.gz"
-      sha256 "e4997384166141e498166245ac316b6fa8a230e068020055ff0c5171b8bbeb82"
+      url "https://github.com/itamaker/runlens-skill/releases/download/v0.4.0/runlens_0.4.0_darwin_arm64.tar.gz"
+      sha256 "77a799433c02db5213abf33665dae98e2ee0bedf9db06212504456cd62a41905"
     else
-      url "https://github.com/itamaker/runlens-skill/releases/download/v0.3.0/runlens_0.3.0_darwin_amd64.tar.gz"
-      sha256 "4276c986f5c554bdd932e27036c09b6a14bd5897d6452a32407406ad622aa328"
+      url "https://github.com/itamaker/runlens-skill/releases/download/v0.4.0/runlens_0.4.0_darwin_amd64.tar.gz"
+      sha256 "600211fda1193a5664fabb0f4dbd0a5ce8b713e84677b429c59fc1f0cd9d5cb2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/itamaker/runlens-skill/releases/download/v0.3.0/runlens_0.3.0_linux_arm64.tar.gz"
-      sha256 "d4ca9597c2161bd0ee97f9a309bb32c27439e52c37f1725160e291514b5ef17c"
+      url "https://github.com/itamaker/runlens-skill/releases/download/v0.4.0/runlens_0.4.0_linux_arm64.tar.gz"
+      sha256 "bc8d365e880d59c11b083700f243317c8734ff7b2065e189b083f4fd3d1f5ae7"
     else
-      url "https://github.com/itamaker/runlens-skill/releases/download/v0.3.0/runlens_0.3.0_linux_amd64.tar.gz"
-      sha256 "63c854b12f93256553dc5389a9e9abefacc658598fc7f074589934e52b048d9f"
+      url "https://github.com/itamaker/runlens-skill/releases/download/v0.4.0/runlens_0.4.0_linux_amd64.tar.gz"
+      sha256 "9718249592d9205806ed901a0d3aff50218643b58d9cb71ead43629f125e2c72"
     end
   end
 

@@ -1,26 +1,26 @@
 class Ragcheck < Formula
   desc "Score retrieval runs with offline Precision@k, Recall@k, HitRate@k, and MRR@k"
   homepage "https://github.com/itamaker/ragcheck-skill"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/itamaker/ragcheck-skill/releases/download/v0.3.0/ragcheck_0.3.0_darwin_arm64.tar.gz"
-      sha256 "2560b8bfce1a50888aa5fe3edbb03afd9ad895fe697e52acba155e9cba2ab1ef"
+      url "https://github.com/itamaker/ragcheck-skill/releases/download/v0.4.0/ragcheck_0.4.0_darwin_arm64.tar.gz"
+      sha256 "e1b9488de6ec59ea37b1041ac0c267f2152be31a9a9ba486d8434db6268ff581"
     else
-      url "https://github.com/itamaker/ragcheck-skill/releases/download/v0.3.0/ragcheck_0.3.0_darwin_amd64.tar.gz"
-      sha256 "2a12070d7b43b5941ce411fa5c19e80e909bfb7f2ce724a691b2edadeb29bfa9"
+      url "https://github.com/itamaker/ragcheck-skill/releases/download/v0.4.0/ragcheck_0.4.0_darwin_amd64.tar.gz"
+      sha256 "97d42b823685e4f221178ae00d6a22e6c2459afed0f5e3bae90fbf07af93fe6e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/itamaker/ragcheck-skill/releases/download/v0.3.0/ragcheck_0.3.0_linux_arm64.tar.gz"
-      sha256 "8e7038880f864c3f23e296847becfb754c7c9834ac954d30226ff74ed29b93e9"
+      url "https://github.com/itamaker/ragcheck-skill/releases/download/v0.4.0/ragcheck_0.4.0_linux_arm64.tar.gz"
+      sha256 "b4dd7ea3fd755e0e85a84cff50af94f1bdb36b2d3875cc6cd99993de8de058de"
     else
-      url "https://github.com/itamaker/ragcheck-skill/releases/download/v0.3.0/ragcheck_0.3.0_linux_amd64.tar.gz"
-      sha256 "31fb6a2120f9b7ed38c35422b81d5e2551c21d793668216d55ea4ea729e6228d"
+      url "https://github.com/itamaker/ragcheck-skill/releases/download/v0.4.0/ragcheck_0.4.0_linux_amd64.tar.gz"
+      sha256 "d861876fbc1a749092b80e5469c0667b30474c603f458d6d144dcfde3e18b431"
     end
   end
 
